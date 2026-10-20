@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bella Glow Beauty</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fff8fb;color:#49333f}
+header{background:#f3c9dc;text-align:center;padding:28px 15px}
+header h1{margin:0;color:#843b62;font-size:30px}
+header p{margin-bottom:0}
+nav{text-align:center;padding:14px;background:white}
+nav a{color:#843b62;text-decoration:none;margin:0 8px;font-weight:bold}
+.hero{text-align:center;padding:45px 20px;background:#fbe5ef}
+.hero h2{font-size:30px;color:#843b62}
+button,.botao{display:inline-block;background:#a94f7c;color:white;border:0;padding:13px 22px;border-radius:25px;text-decoration:none;font-weight:bold}
+section{padding:30px 20px;text-align:center}
+.card{background:white;max-width:480px;margin:15px auto;padding:25px;border-radius:18px;box-shadow:0 3px 12px #e9d7e0}
+.preco{font-size:25px;color:#a94f7c;font-weight:bold}
+.aviso{font-size:14px;color:#775e6b}
+footer{background:#f3c9dc;padding:22px;text-align:center;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+<h1>Bella Glow Beauty 🌸</h1>
+<p>A tua beleza começa com cuidado e amor.</p>
+</header>
+<nav>
+<a href="#inicio">Início</a>
+<a href="#cuidados">Cuidados</a>
+<a href="#ebook">E-book</a>
+</nav>
+<div class="hero" id="inicio">
+<h2>Cuida da tua pele, realça o teu brilho!</h2>
+<p>Descobre dicas práticas para uma rotina de beleza simples e consciente.</p>
+<a class="botao" href="#ebook">Descobrir o e-book</a>
+</div>
+<section id="cuidados">
+<h2>🌷 Beleza e cuidados com a pele</h2>
+<p>Pequenos hábitos podem ajudar-te a cuidar melhor da tua pele.</p>
+<div class="card">
+<h3>Uma rotina simples</h3>
+<p>Limpa o rosto suavemente, usa hidratante adequado e aplica protetor solar durante o dia.</p>
+<p>Evita misturas irritantes e testa novos produtos com cuidado.</p>
+</div>
+</section>
+<section id="ebook">
+<h2>📘 O nosso e-book</h2>
+<div class="card">
+<h3>Pele Radiante</h3>
+<p><b>Guia Prático de Beleza e Cuidados com a Pele</b></p>
+<p>Um guia introdutório para organizares a tua rotina de cuidados e conheceres melhor a tua pele.</p>
+<p class="preco">300 MT</p>
+<p class="aviso">O preço é ilustrativo e pode ser alterado antes do lançamento.</p>
+<p><a class="botao" href="mailto:TEU_EMAIL_AQUI?subject=Interesse%20no%20ebook%20Pele%20Radiante">Tenho interesse</a></p>
+<p class="aviso">Este botão permite contactar a loja por e-mail. Ainda não processa pagamentos nem entrega o e-book automaticamente.</p>
+</div>
+</section>
+<footer>
+<p>© 2026 Bella Glow Beauty</p>
+<p>Beleza, cuidado e confiança 🌸</p>
+</footer>
+</body>
+</html>
